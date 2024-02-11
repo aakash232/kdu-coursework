@@ -27,4 +27,4 @@ jobs:
       - name: Run Cypress tests
         run: cd ./frontend/assignments/1 && npx cypress run --env type=actual ALWAYS_GENERATE_DIFF=true --spec "cypress/e2e/**/*"
         env:
-          HOME_PAGE_URL: 'https://google.com'
+          HOME_PAGE_URL: 'http://google.com'
