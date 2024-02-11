@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: '16.x'
 
+      - name: Change directory
+        run: cd ./frontend/assignments/1
+
       - name: Install Cypress
         run: npm install cypress@13.6.3 
         
